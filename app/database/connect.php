@@ -1,9 +1,10 @@
 <?php
 
 $host = 'localhost';
-$user = 'root';
-$pass = '';
+$user = 'nouvel_utilisateur';
+$pass = 'mot_de_passe';
 $db_name = 'blog';
+
 
 $conn = new MySQLi($host, $user, $pass, $db_name);
 

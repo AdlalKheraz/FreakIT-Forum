@@ -6,4 +6,4 @@
 define("ROOT_PATH", realpath(dirname(__FILE__)));
 
 // URL de base du site web
-define("BASE_URL", "http://localhost/FreakIT-Forum");
+define("BASE_URL", "http://83.150.217.113");

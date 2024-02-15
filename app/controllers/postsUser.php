@@ -54,7 +54,7 @@ if (isset($_GET['published']) && isset($_GET['p_id'])) {
 
 // Gestion de l'ajout d'un article
 if (isset($_POST['add-post'])) {
-    $errors = validatePost($_POST);S
+    $errors = validatePost($_POST);
     // Traitement de l'image associée à l'article
     if (!empty($_FILES['image']['name'])) {
         $image_name = time() . '_' . $_FILES['image']['name'];

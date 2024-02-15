@@ -7,12 +7,6 @@ session_start();
 require('connect.php');
 
 
-// // Fonction de débogage, à supprimer en production
-// function dd($value)
-// {
-//     echo "<pre>", print_r($value, true), "</pre>";
-//     die();
-// }
 
 // Fonction pour exécuter une requête avec des déclarations préparées
 function executeQuery($sql, $data)
